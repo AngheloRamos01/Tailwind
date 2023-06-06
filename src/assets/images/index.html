@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Geologica:wght@300&family=Poller+One&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+  <title>Tailwind CSS</title>
+</head>
+<body class="">
+  <header>
+    <nav class=" bg-green-500 p-3 px-4  ">
+        <a href="#" class="hover:text-blue-300 m-2 px-5  text-2xl">BrandName</a>
+        <a href="#" class="hover:text-red-400 pr-4 text-2xl">Home</a>
+        <button data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="pr-4 text-2xl"> Shop
+          <div class="dropdownHover hidden">
+            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
+              </li>
+            </ul>
+          </div>
+        </button>
+        <a href="#" class="hover:text-red-400 pr-4 text-2xl">About</a>
+        <a href="#"class="hover:text-red-400 pr-4 text-2xl">Blog</a>
+        <a href="#"class="hover:text-red-400 pr-4 text-2xl">Contact</a>
+        <a href="#"class="hover:text-red-400 pr-4 text-2xl">Pages</a>
+        <a href="#" class="float-right hover:text-red-400 text-2xl">Login/Register</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class=" grid grid-cols-3 gap-4 mx-32 mt-10 max-w-[300px] h-[300px] ">
+        
+        <div class="relative row-span-2 col-span-1 "><img class=" object-cover h-[300px] " src="https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=627&q=80" alt="pic1">
+        <p class="absolute top-12 text-green-400 ml-4 text-3xl">5 items</p>
+        <h2 class="absolute top-20 font-bold text-4xl ml-4 ">FURNITURE </h2>
+        <p class="absolute top-28 m-4">Read More</p>
+        </div>
+        
+       <div class="relative row-span-1 col-span-2 ">
+        <img class="object-cover h-[500px]" src="https://plus.unsplash.com/premium_photo-1673548917385-414efe200403?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZnVybml0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60" alt="pic4">
+        <p class="absolute top-12 text-green-400 ml-4 text-3xl">5 items</p>
+        <h2 class="absolute top-20 font-bold text-4xl ml-4 ">FURNITURE </h2>
+        <p class="absolute top-28 m-4">Read More</p>
+    </div>
+
+       <div class=" relative row-span-1 col-span-1 col-start-2 row-start-2"> <img class="object-cover h-[300px]" src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80" alt="pic2">
+        <p class="absolute top-12 text-green-400 ml-4 text-3xl">5 items</p>
+        <h2 class="absolute top-20 font-bold text-4xl ml-4 ">FURNITURE </h2>
+        <p class="absolute top-28 m-4">Read More</p>
+    </div>
+
+       <div class=" relative row-span-1 col-span-1"><img class="object-cover h-[300px]" src="https://images.unsplash.com/photo-1561677978-583a8c7a4b43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="pic3">
+        <p class="absolute top-12 text-green-400 ml-4 text-3xl">5 items</p>
+        <h2 class="absolute top-20 font-bold text-4xl ml-4 ">FURNITURE </h2>
+        <p class="absolute top-28 m-4">Read More</p>
+    </div>    
+    </div>
+  </main>
+</body>
+</html>
